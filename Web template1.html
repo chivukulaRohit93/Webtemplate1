@@ -1,0 +1,916 @@
+<!doctype html>
+<html>
+<head>
+<title> Responsive Web Template </title>
+<link rel = "stylesheet" href = "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.theme.min.css">
+ 
+
+ 
+<style>
+.logo{
+width:60px;
+}
+.logo1{
+width:30px;
+margin-left:10px;
+}
+
+.top1{
+margin-top:15px;
+}
+
+.size1{
+font-size:18px;
+margin-left:15px;
+color:burlywood;
+}
+
+.open li{
+display:none;
+font-size:18px;
+color:#000;
+line-height:35px;
+width:100px;
+}
+
+li{
+list-style:none;
+}
+li:hover{
+color:bisque;
+}
+.size2{
+font-size:24px;
+left:10px;
+color:burlywood;
+top:6px;
+}
+
+.align1{
+background-color:darkgrey;
+height:350px;
+color:#fff;
+opacity:0.6;
+}
+
+.top2{
+margin-top:100px;
+}
+
+.top3{
+margin-top:25px;
+}
+
+.btn-orange{
+background-color:orange;
+width:150px;
+display:block;
+margin:auto;
+margin-left:405px;
+}
+.btn-orange:hover{
+background-color:#fff;
+color:orange;
+border:1px solid orange;
+}
+.btn-white{
+color:#fff;
+width:150px;
+display:block;
+margin:auto;
+margin-right:450px;
+}
+.btn-white:hover{
+background-color:#fff;
+color:darkgrey;
+border:1px solid #darkgrey;
+}
+.flex1{
+display:flex;
+}
+
+.back1{
+background-image:url('meeting3.jpg');
+background-repeat:no-repeat;
+height:600px;
+width:100%;
+}
+.color3{
+background-color:bisque;
+opacity:0.6;
+height:100%;
+}
+.btn-white1{
+background-color:white;
+color:#000;
+width:150px;
+}
+.btn-white1:hover{
+background-color:bisque;
+color:#fff;
+border:1px solid #fff;
+}
+.top4{
+margin-top:150px;
+font-size:24px;
+}
+.top5{
+margin-top:20px;
+}
+.size{
+font-size:24px;
+color:burlywood;
+top:5px;
+}
+.clippy1{
+height: 100px;
+background-color: salmon;
+width: 100px;
+border-radius: 50%;
+position: relative;
+}
+.left1{
+float:left;
+}
+.size3{
+font-size: 70px;
+color: #fff;
+position: absolute;
+top: 20%;
+left: 15%;
+}
+.size4{
+font-size:70px;
+color:#fff;
+position:absolute;
+top:20%;
+left:5%;
+}
+.size5{
+font-size:70px;
+color:#fff;
+position:absolute;
+top:20%;
+left:33%;
+}
+
+.size11{
+font-size:23px;
+}
+
+body{
+overflow-x:hidden;
+}
+.size6{
+font-size: 70px;
+color: #fff;
+position: absolute;
+top: 15%;
+left: 20%;
+}
+.color1{
+color:salmon;
+}
+
+.size7{
+font-size:90px;
+color:white;
+
+}
+.back2{
+background-image:url("scenery2.jpg");
+background-repeat:no-repeat;
+margin-top:50px;
+}
+.btn-brown{
+background-color:burlywood;
+width:150px;
+color:#fff;
+}
+.btn-brown:hover{
+background-color:#fff;
+color:burlywood;
+border:1px solid burlywood;
+}
+
+.width1{
+color:beige;
+background-color:bisque;
+height:200px;
+width:35%;
+}
+
+.left4{
+margin-left:145px;
+height:180px;
+}
+
+.left5{
+margin-left:75px;
+}
+
+.rotate1{
+ transform: rotate(1deg);
+ margin-top:35px;
+}
+
+.img1{
+width:100%;
+}
+.img4{
+width:400px;
+height:300px;
+}
+.footer{
+background-color:#000;
+color:#fff;
+height:300px;
+line-height:65px;
+}
+
+.top10{
+margin-top:75px;
+}
+
+.input1{
+width:300px;
+height:40px;
+}
+
+.btn-brown1{
+background-color:burlywood;
+color:#fff;
+height:40px;
+}
+
+.btn-brown1:hover{
+background-color:#fff;
+color:burlywood;
+border:1px solid burlywood;
+}
+
+.width7{
+margin-left:auto;
+margin-right:auto;
+display:block;
+width:400px;
+}
+
+.width8{
+margin-left:auto;
+margin-right:auto;
+display:block;
+width:500px;
+margin-top:20px;
+}
+
+.testimonial{
+    padding: 0 15px;
+    text-align: center;
+}
+.testimonial .pic{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 25px;
+    overflow: hidden;
+}
+.testimonial .pic img{
+    width: 100%;
+    height: auto;
+}
+.testimonial .description{
+    padding: 0 15px;
+    font-size: 18px;
+    color: #fff;
+    line-height: 26px;
+}
+.testimonial .testimonial-title{
+    font-size: 24px;
+    letter-spacing: 3px;
+    color: #fff;
+    text-transform: uppercase;
+    position: relative;
+}
+.testimonial .testimonial-title:after{
+    content: "\f10d";
+    font-family: "Font Awesome 5 Free"; font-weight: 900;
+    display: inline-block;
+    width: 100%;
+    font-size: 40px;
+    color: #54478a;
+    margin-top: 30px;
+}
+.owl-theme .owl-controls .owl-page span{
+    display: block;
+    width: 12px;
+    height: 12px;
+    border-radius: 20px;
+    background: #fff;
+    margin: 5px 7px;
+    opacity: 0.5;
+}
+
+@media (min-width:320px) and (max-width:992px){
+.btn-orange{
+margin-left:0px !important;
+}
+.btn-white{
+margin-right:0px !important;
+}
+.color1{
+text-align:center;
+}
+.text-right{
+text-align:center !important;
+}
+.text-left{
+text-align:center !important;
+}
+.left4{
+margin-left:0px !important;
+}
+.img4{
+width:100% !important;
+height:100% !important;
+}
+
+.left5{
+margin-left:0px !important;
+}
+.align2{
+margin-left:auto;
+margin-right:auto;
+display:block;
+width:100%;
+}
+.width7{
+width:100% !important;
+}
+.width8{
+width:100% !important;
+}
+.clippy1{
+float:none !important;
+clear:both;
+margin-top:25px;
+margin:auto;
+}
+.clear{
+float:none !important;
+}
+.clear1{
+float:right !important;
+}
+.footer{
+height:350px;
+}
+.input1{
+width:100% !important;
+}
+}
+
+@media (min-width:767px) and (max-width:992px){
+.clear1{
+float:none !important;
+}
+}
+
+</style>
+</head>
+<body>
+<div class = "col-sm-12 container">
+<div class = "col-sm-3">
+<img class = "logo" src = "download.jfif" />
+<i> indegence </i>
+</div>
+
+<div class = "col-sm-3 pull-right top1 clear">
+<i> <img class = "logo1" src = "twitter.png" /> </i>
+<i> <img class = "logo1" src = "facebook.png" /> </i>
+<i> <img class = "logo1" src = "linkedin.png" /> </i>
+<i class = "clear1">
+<b class = "size1"> Menu </b>
+
+<i class = "glyphicon glyphicon-menu-hamburger size" style = "cursor:pointer;"></i>
+</i>
+</div>
+<div class = "clearfix"></div>
+<ul class = "open">
+<li> Home </li>
+<li> About </li>
+<li> Products </li>
+<li> Events </li>
+<li> Calendar </li>
+<li> Blog </li>
+<li> Contact </li>
+</ul>
+
+<div class = "clearfix"></div>
+
+<div class = "col-sm-12 top1 align1">
+<h2 class = "text-center top2"> Enterprise Marketing and Customer Experience </h2>
+<h4 class = "text-center top3"> LEVERAGE DATA TO DRIVE PERSONALIZATION AT SCALE  </h4>
+
+<div class = "flex1 top3">
+<div class = "btn btn-orange"> Global Transition </div>
+<div class = "btn btn-white"> <i class="fa fa-play-circle" aria-hidden="true"></i> Explore </div>
+</div>
+</div>
+
+<div class = "clearfix"></div>
+
+<div class = "back1 col-sm-12">
+<div class = "col-sm-6 color3 row">
+<h4 class = "top4"> DIGITAL SAAVY PHARMA MARKETER 2020 </h4>
+<h4 class = "size2"> "Must have tool for every marketer" </h4>
+<div class = "btn btn-white1"> <i class="fa fa-play-circle" aria-hidden="true"></i> Download </div>
+</div>
+</div>
+
+<div class = "clearfix"></div>
+<div class = "top3"></div>
+<div class = "col-sm-12">
+<h4 class = "text-center" style = "font-size:24px;font-weight:800;"> Company </h4>
+<h4 class = "text-center" style = "font-size:18px;"> Sevices </h4>
+
+<div class = "col-sm-2"></div>
+<div class = "col-sm-4 top5">
+<div class = "pull-left align2">
+<h4 class = "text-right"> Customer Experience </h4>
+<h5 class = "color1">
+A must have tool for pharma marketers to <br /> gain insight in to the latest channel prefer-<br />ences , marketing budget allocations , tech-<br />nology utilization .
+</h5>
+
+</div>
+<div class = "clippy1 left1">
+<i class="fa fa-handshake-o size4" aria-hidden="true"></i>
+</div>
+
+</div>
+
+<div class = "col-sm-4 top5">
+
+<div class = " pull-left clippy1">
+<i class="fa fa-tags size3" aria-hidden="true"></i>
+</div>
+
+<div class = "left1 align2">
+<h4 class = "text-left"> Co-commercialization </h4>
+<h5 class = "color1">
+A must have tool for pharma marketers to <br /> gain insight in to the latest channel prefer-<br />ences , marketing budget allocations , tech-<br />nology utilization .
+</h5>
+
+</div>
+
+
+</div>
+<div class = "col-sm-2"></div>
+
+<div class = "clearfix"></div>
+
+<div class = "col-sm-2"></div>
+<div class = "col-sm-4 top5">
+<div class = "pull-left align2">
+<h4 class = "text-right"> Data and Analytics </h4>
+<h5 class = "color1">
+A must have tool for pharma marketers to <br /> gain insight in to the latest channel prefer-<br />ences , marketing budget allocations , tech-<br />nology utilization .
+</h5>
+
+</div>
+<div class = "clippy1 left1">
+<i class="fa fa-bar-chart size3" aria-hidden="true"></i>
+</div>
+
+</div>
+
+<div class = "col-sm-4 top5">
+
+<div class = "pull-left clippy1">
+<i class="fa fa-thermometer-half size5" aria-hidden="true"></i>
+</div>
+
+<div class = "left1 align2">
+<h4 class = "text-left"> R&D / Medical Transformation </h4>
+<h5 class = "color1">
+A must have tool for pharma marketers to <br /> gain insight in to the latest channel prefer-<br />ences , marketing budget allocations , tech-<br />nology utilization .
+</h5>
+
+</div>
+
+
+</div>
+<div class = "col-sm-2"></div>
+
+<div class = "clearfix"></div>
+
+<div class = "col-sm-2"></div>
+<div class = "col-sm-4 top5">
+<div class = "pull-left align2">
+<h4 class = "text-right"> Digital Transformation </h4>
+<h5 class = "color1">
+A must have tool for pharma marketers to <br /> gain insight in to the latest channel prefer-<br />ences , marketing budget allocations , tech-<br />nology utilization .
+</h5>
+
+</div>
+<div class = "clippy1 left1">
+<i class="fa fa-cog size6" aria-hidden="true"></i>
+</div>
+
+</div>
+
+<div class = "col-sm-4 top5">
+
+<div class = " pull-left clippy1">
+<i class="fa fa-desktop size3" aria-hidden="true"></i>
+</div>
+
+<div class = "left1 align2">
+<h4 class = "text-left"> Omnipresence CMX Platform </h4>
+<h5 class = "color1">
+A must have tool for pharma marketers to <br /> gain insight in to the latest channel prefer-<br />ences , marketing budget allocations , tech-<br />nology utilization .
+</h5>
+
+</div>
+
+
+</div>
+<div class = "col-sm-2"></div>
+
+
+
+</div>
+
+</div>
+<div class = "clearfix"></div>
+
+
+ 
+         <div class="col-sm-12 back2">
+<h3 class = "text-center" style = "color:#fff;"> INSPIRATIONAL TESTIMONY </h3> 
+<div class="col-md-12">
+            <div id="testimonial-slider" class="owl-carousel">
+                <div class="testimonial">
+                    <div class="pic">
+                        <i class="fa fa-user-circle-o size7" aria-hidden="true"></i>
+                    </div>
+                    <p class="description">
+                        As President, he is reponsible for new strategic initiatives .
+                    </p>
+                    <h3 class="testimonial-title"> President </h3>
+                </div>
+ 
+                <div class="testimonial">
+                    <div class="pic">
+                        <i class="fa fa-user-circle-o size7" aria-hidden="true"></i>
+                    </div>
+                    <p class="description">
+                        As one og the cofounders and CEO , he is responsible for the company's stratergy .
+                    </p>
+                    <h3 class="testimonial-title"> CEO </h3>
+                </div>
+ 
+                <div class="testimonial">
+                    <div class="pic">
+                        <i class="fa fa-user-circle-o size7" aria-hidden="true"></i>
+                    </div>
+                    <p class="description">
+                        Is responsible for global business development and strategic account management .
+                    </p>
+                    <h3 class="testimonial-title"> Executive VP </h3>
+                </div>
+				
+				<div class="testimonial">
+                    <div class="pic">
+                        <i class="fa fa-user-circle-o size7" aria-hidden="true"></i>
+                    </div>
+                    <p class="description">
+                        As President, he is reponsible for new strategic initiatives .
+                    </p>
+                    <h3 class="testimonial-title"> President </h3>
+                </div>
+ 
+                <div class="testimonial">
+                    <div class="pic">
+                        <i class="fa fa-user-circle-o size7" aria-hidden="true"></i>
+                    </div>
+                    <p class="description">
+                        As one og the cofounders and CEO , he is responsible for the company's stratergy .
+                    </p>
+                    <h3 class="testimonial-title"> CEO </h3>
+                </div>
+ 
+                <div class="testimonial">
+                    <div class="pic">
+                        <i class="fa fa-user-circle-o size7" aria-hidden="true"></i>
+                    </div>
+                    <p class="description">
+                        Is responsible for global business development and strategic account management .
+                    </p>
+                    <h3 class="testimonial-title"> Executive VP </h3>
+                </div>
+				
+				<div class="testimonial">
+                    <div class="pic">
+                        <i class="fa fa-user-circle-o size7" aria-hidden="true"></i>
+                    </div>
+                    <p class="description">
+                        As President, he is reponsible for new strategic initiatives .
+                    </p>
+                    <h3 class="testimonial-title"> President </h3>
+                </div>
+ 
+                <div class="testimonial">
+                    <div class="pic">
+                        <i class="fa fa-user-circle-o size7" aria-hidden="true"></i>
+                    </div>
+                    <p class="description">
+                        As one og the cofounders and CEO , he is responsible for the company's stratergy .
+                    </p>
+                    <h3 class="testimonial-title"> CEO </h3>
+                </div>
+ 
+                <div class="testimonial">
+                    <div class="pic">
+                        <i class="fa fa-user-circle-o size7" aria-hidden="true"></i>
+                    </div>
+                    <p class="description">
+                        Is responsible for global business development and strategic account management .
+                    </p>
+                    <h3 class="testimonial-title"> Executive VP </h3>
+                </div>
+				
+				<div class="testimonial">
+                    <div class="pic">
+                        <i class="fa fa-user-circle-o size7" aria-hidden="true"></i>
+                    </div>
+                    <p class="description">
+                        As President, he is reponsible for new strategic initiatives .
+                    </p>
+                    <h3 class="testimonial-title"> President </h3>
+                </div>
+ 
+                <div class="testimonial">
+                    <div class="pic">
+                        <i class="fa fa-user-circle-o size7" aria-hidden="true"></i>
+                    </div>
+                    <p class="description">
+                        As one og the cofounders and CEO , he is responsible for the company's stratergy .
+                    </p>
+                    <h3 class="testimonial-title"> CEO </h3>
+                </div>
+ 
+                <div class="testimonial">
+                    <div class="pic">
+                        <i class="fa fa-user-circle-o size7" aria-hidden="true"></i>
+                    </div>
+                    <p class="description">
+                        Is responsible for global business development and strategic account management .
+                    </p>
+                    <h3 class="testimonial-title"> Executive VP </h3>
+                </div>
+				
+				<div class="testimonial">
+                    <div class="pic">
+                        <i class="fa fa-user-circle-o size7" aria-hidden="true"></i>
+                    </div>
+                    <p class="description">
+                        As President, he is reponsible for new strategic initiatives .
+                    </p>
+                    <h3 class="testimonial-title"> President </h3>
+                </div>
+ 
+                <div class="testimonial">
+                    <div class="pic">
+                        <i class="fa fa-user-circle-o size7" aria-hidden="true"></i>
+                    </div>
+                    <p class="description">
+                        As one og the cofounders and CEO , he is responsible for the company's stratergy .
+                    </p>
+                    <h3 class="testimonial-title"> CEO </h3>
+                </div>
+ 
+                <div class="testimonial">
+                    <div class="pic">
+                        <i class="fa fa-user-circle-o size7" aria-hidden="true"></i>
+                    </div>
+                    <p class="description">
+                        Is responsible for global business development and strategic account management .
+                    </p>
+                    <h3 class="testimonial-title"> Executive VP </h3>
+                </div>
+				
+            </div>
+        </div>
+</div>
+<div class = "clearfix"></div>
+<div class = "top3"></div>
+<div class = "col-sm-12 container">
+<div class = "top3">
+<h2> UPCOMMING EVENTS </h2>
+
+<div class = "col-sm-4 pull-left">
+<img class = "img4" src = "events.jfif" />
+</div>
+<div class = "col-sm-7">
+<h2 class = "size11"> Global Pharmaceutical Regulatory Affairs Summit </h2>
+<p> <i class="fa fa-calendar" aria-hidden="true"></i>
+<i> Monday , 8:00 A.M - Tuesday , 8:00 P.M </i> </p>
+<p>
+<i class="fa fa-map-marker" aria-hidden="true"></i>
+<i> Madisson Hotel </i>
+</p>
+<p>
+<i class="fa fa-id-card-o" aria-hidden="true"></i>
+203 st. Mountain View , Sanfracisco , California , USA 
+</p>
+<div class = "btn btn-brown">
+Read More
+</div>
+</div>
+</div>
+
+<div class = "clearfix"></div>
+
+<div class = "top3">
+
+<div class = "col-sm-4 pull-left">
+<img class = "img4" src = "events1.jpg" />
+</div>
+<div class = "col-sm-7">
+<h2 class = "size11"> World Drug Safety Congress Europe </h2>
+<p> <i class="fa fa-calendar" aria-hidden="true"></i>
+<i> Monday , 8:00 A.M - Tuesday , 8:00 P.M </i> </p>
+<p>
+<i class="fa fa-map-marker" aria-hidden="true"></i>
+<i> Madisson Hotel </i>
+</p>
+<p>
+<i class="fa fa-id-card-o" aria-hidden="true"></i>
+203 st. Mountain View , Sanfracisco , California , USA 
+</p>
+<div class = "btn btn-brown">
+Read More
+</div>
+</div>
+</div>
+
+<div class = "clearfix"></div>
+
+<div class = "top3">
+
+<div class = "col-sm-4 pull-left">
+<img class = "img4" src = "events2.jpg" />
+</div>
+<div class = "col-sm-7">
+<h2 class = "size11"> Real World Data and Analytics Centers of Excellence </h2>
+<p> <i class="fa fa-calendar" aria-hidden="true"></i>
+<i> Monday , 8:00 A.M - Tuesday , 8:00 P.M </i> </p>
+<p>
+<i class="fa fa-map-marker" aria-hidden="true"></i>
+<i> Madisson Hotel </i>
+</p>
+<p>
+<i class="fa fa-id-card-o" aria-hidden="true"></i>
+203 st. Mountain View , Sanfracisco , California , USA 
+</p>
+<div class = "btn btn-brown">
+Read More
+</div>
+</div>
+</div>
+
+<div class = "clearfix"></div>
+
+<div class = "top3">
+
+<div class = "col-sm-4 pull-left">
+<img class = "img4" src = "events1.jpg" />
+</div>
+<div class = "col-sm-7">
+<h2 class = "size11"> 4TH Promotional Review Committee Compliance & Best Practice </h2>
+<p> <i class="fa fa-calendar" aria-hidden="true"></i>
+<i> Monday , 8:00 A.M - Tuesday , 8:00 P.M </i> </p>
+<p>
+<i class="fa fa-map-marker" aria-hidden="true"></i>
+<i> Madisson Hotel </i>
+</p>
+<p>
+<i class="fa fa-id-card-o" aria-hidden="true"></i>
+203 st. Mountain View , Sanfracisco , California , USA 
+</p>
+<div class = "btn btn-brown">
+Read More
+</div>
+</div>
+</div>
+
+
+</div>
+
+<div class = "col-sm-12 container" style = "background-color:lightgray;">
+<h2 class = "text-center">  RECENT BLOG </h2>
+<h4 class = "color1 text-center"> Our Blog </h4>
+<div class = "rotate1">
+<div class = "col-sm-3 thumbnail left5">
+<img src = "laptop3.jfif" class = "img1" />
+<div class = "pull-left width1">
+<p style = "font-size:75px;"> 18 </p>
+<p style = "font-size:25px;"> January 2019 </p>
+</div>
+<div class = "left4">
+<h3> Press Release </h3>
+<p>
+Indengence Acquires DT Associates , Provides End-To-End Enterprise Solution for Customer Excellence .
+</p>
+</div>
+</div>
+
+<div class = "col-sm-3 thumbnail left5">
+<img src = "laptop2.jfif" class = "img1" />
+<div class = "pull-left width1">
+<p style = "font-size:75px;"> 18 </p>
+<p style = "font-size:25px;">January 2019 </p>
+</div>
+<div class = "left4">
+<h3> Webinars </h3>
+<h4>
+
+</h4> Healthy Workplaces Confer- <br /> erence & Awards 2019 - Inde-<br />ngence enters "Platinum League <br /> of Healthy Workplaces" .
+</div>
+</div>
+
+<div class = "col-sm-3 thumbnail left5">
+<img src = "laptop3.jfif" class = "img1" />
+<div class = "pull-left width1">
+<p style = "font-size:75px;"> 18 </p>
+<p style = "font-size:25px;"> January 2019 </p>
+</div>
+<div class = "left4">
+<h3> Press Release </h3>
+<h4>
+
+</h4> Exemplary PV solutio to aug- <br /> ment efficiency in small and <br /> medium size pharma <br /> companies .
+</div>
+</div>
+
+</div>
+
+</div>
+
+<div class = "clearfix"></div>
+
+<div class = "footer col-sm-12">
+<h2 class = "text-center top10">  NEWS LETTER </h2>
+<p class = "width7">
+<input type = "text" class ="input1" placeholder = "Enter email Address" />
+<i class = "btn btn-brown1"> Subcribe </i>
+</p>
+
+<p class = "width8">
+   2019 Indegence. All rights reserved | Contact Us | Privacy Policy | CSR Policy 
+</p>
+</div>
+
+</body>
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"></script>
+ 
+<script> 
+$(document).ready(function(){
+    $("#testimonial-slider").owlCarousel({
+        items:3,
+        itemsDesktop:[1199,2],
+        itemsDesktopSmall:[979,2],
+        itemsTablet:[768,2],
+        itemsMobile:[600,1],
+        pagination:true,
+        navigation:false,
+        navigationText:["",""],
+        slideSpeed:1000,
+        autoPlay:true
+    });
+});
+</script>
+<script>
+$(document).ready(function(){
+$(".glyphicon-menu-hamburger").click(function(){
+	$(".open li").slideToggle();
+	});
+});
+</script>
+</html>
