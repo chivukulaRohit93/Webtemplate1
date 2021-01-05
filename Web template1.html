@@ -20,7 +20,10 @@ width:60px;
 width:30px;
 margin-left:10px;
 }
-
+.aqua{
+color:aqua;
+font-size:24px;
+}
 .top1{
 margin-top:15px;
 }
@@ -41,9 +44,11 @@ width:100px;
 
 li{
 list-style:none;
+text-decoration:none !important;
+color:#000 !important;
 }
 li:hover{
-color:bisque;
+color:bisque !important;
 }
 .size2{
 font-size:24px;
@@ -351,6 +356,7 @@ margin-right:auto;
 display:block;
 width:100%;
 }
+
 .width7{
 width:100% !important;
 }
@@ -362,6 +368,9 @@ float:none !important;
 clear:both;
 margin-top:25px;
 margin:auto;
+}
+.rotate1{
+transform: rotate(0deg);
 }
 .clear{
 float:none !important;
@@ -383,13 +392,19 @@ float:none !important;
 }
 }
 
+@media (min-width:450px) and (max-width:590px){
+.size11{
+clear:both !important;
+}
+}
+
 </style>
 </head>
 <body>
 <div class = "col-sm-12 container">
 <div class = "col-sm-3">
 <img class = "logo" src = "download.jfif" />
-<i> indegence </i>
+<i class = "aqua"> Indegence </i>
 </div>
 
 <div class = "col-sm-3 pull-right top1 clear">
@@ -404,13 +419,13 @@ float:none !important;
 </div>
 <div class = "clearfix"></div>
 <ul class = "open">
-<li> Home </li>
-<li> About </li>
-<li> Products </li>
-<li> Events </li>
-<li> Calendar </li>
-<li> Blog </li>
-<li> Contact </li>
+<li> <a> Home </a> </li>
+<li> <a> About </a> </li>
+<li> <a href = "#products"> Products </a> </li>
+<li> <a href = "#events"> Events </a> </li>
+<li> <a> Calendar </a> </li>
+<li> <a href = "#blog"> Blog </a> </li>
+<li> <a href = "#contact"> Contact </a> </li>
 </ul>
 
 <div class = "clearfix"></div>
@@ -437,7 +452,7 @@ float:none !important;
 
 <div class = "clearfix"></div>
 <div class = "top3"></div>
-<div class = "col-sm-12">
+<div class = "col-sm-12" id = "products">
 <h4 class = "text-center" style = "font-size:24px;font-weight:800;"> Company </h4>
 <h4 class = "text-center" style = "font-size:18px;"> Sevices </h4>
 
@@ -712,7 +727,7 @@ A must have tool for pharma marketers to <br /> gain insight in to the latest ch
 </div>
 <div class = "clearfix"></div>
 <div class = "top3"></div>
-<div class = "col-sm-12 container">
+<div id = "events" class = "col-sm-12 container">
 <div class = "top3">
 <h2> UPCOMMING EVENTS </h2>
 
@@ -815,7 +830,7 @@ Read More
 
 </div>
 
-<div class = "col-sm-12 container" style = "background-color:lightgray;">
+<div id = "blog" class = "col-sm-12 container" style = "background-color:lightgray;">
 <h2 class = "text-center">  RECENT BLOG </h2>
 <h4 class = "color1 text-center"> Our Blog </h4>
 <div class = "rotate1">
@@ -867,7 +882,7 @@ Indengence Acquires DT Associates , Provides End-To-End Enterprise Solution for 
 
 <div class = "clearfix"></div>
 
-<div class = "footer col-sm-12">
+<div id = "contact" class = "footer col-sm-12">
 <h2 class = "text-center top10">  NEWS LETTER </h2>
 <p class = "width7">
 <input type = "text" class ="input1" placeholder = "Enter email Address" />
@@ -908,7 +923,7 @@ $(document).ready(function(){
 </script>
 <script>
 $(document).ready(function(){
-$(".glyphicon-menu-hamburger").click(function(){
+$(".clear1").click(function(){
 	$(".open li").slideToggle();
 	});
 });
